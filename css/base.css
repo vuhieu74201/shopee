@@ -1,0 +1,89 @@
+:root{
+    --black-color: #000;
+    --white-color: #FFF;
+    --text-color: #333;
+}
+
+*{
+    box-sizing: inherit;
+}
+html {
+    font-size:62.5%;
+    line-height:1.6rem;
+    font-family: 'roboto', sans-serif;
+    box-sizing: border-box;
+}
+.grid{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+
+}
+.grid__full-width{
+    width: 100%;
+}
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    min-width: 1200px;
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.select-input{
+    position: relative;
+    background-color:#fff;
+    height:30px;
+    min-width: 200px;
+    padding:0 12px;
+    align-items: center;
+    border-radius: 2px;
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+}
+
+.select-input__label{
+    font-size:1.4rem;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 2%);
+}
+.select-input:hover .select-input__list{
+    display: block;
+}
+.select-input__list{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:100%;
+    margin-top: 1px;
+    border-radius: 2px;
+    padding: 8px 16px;
+    list-style: none;
+    background-color:#fff;
+    display:none;
+    z-index: 1000;
+}
+.select-input__link{
+    font-size:1.4rem;
+    color : #333;
+    display: block;
+    padding: 4px 0;
+    
+}
+.select-input__link:hover{
+    color:rgb(238,77,45);
+    text-decoration: none;
+}
+.col-xs-2-4{
+    flex-basis: 20%;
+    max-width: 20%;
+}
+.col-xs-2-4 a:hover{
+    text-decoration:none;
+}
+.flex{
+    display: flex;
+}
+

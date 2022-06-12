@@ -1,0 +1,130 @@
+.shopee-top{
+    background: linear-gradient(-180deg,#f53d2d,#f63);
+}
+.flex{
+    display: flex;
+}
+.shopee-top a:hover{
+    text-decoration: none;
+    color: #cfc3b2;
+}
+.left-text{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 300;
+    padding: 0 .7rem;
+    border-right: 2px solid hsla(0,0%,100%,.22);
+    text-align: center;
+}
+.left-text-2{
+    border: 0;
+}
+.left-icons{
+    border: 0;
+    font-size:1.5rem;
+    text-align: center;
+    padding-right: 0;
+}
+.navbar__links{
+    list-style: none; 
+    margin-bottom: 0;
+    padding: 0;
+}
+.navbar__links-items {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 0 7px;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+.navbar__links-items:hover{
+    color: #cfc3b2;
+}
+.items-text{
+    padding-left: .7rem;
+}
+
+
+.header-with-search{
+    display: flex;
+    padding: 10px 0 20px 0;   
+}
+.fa-shopify {
+    color: antiquewhite;
+    font-size: 3.5rem;
+}
+.shopee-logo{
+    text-decoration: none;
+}
+.logo-text{
+    align-items: center;
+    font-size: 3.5rem;
+    padding:0 40px 0 12px;
+    color: antiquewhite; 
+}
+.shopee__search-bar__main{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    border:2px solid #fff;
+    background-color: #fff;
+}
+.shopee__search-bar-input{
+    display: flex;
+}
+.shopee__search-bar-input__input{
+    font-size: 1.6rem;
+    padding-left: 10px;
+    border:0px;
+    width: 740px;
+}
+.shopee__search-bar-input__input:focus{
+    outline: 0;
+}
+.fa-search{ 
+    font-size: 1.3rem;
+    color: #fff;
+    text-align: center;
+}
+.btn--inline{
+    padding:5px 15px;
+    background: linear-gradient(-180deg,#f53d2d,#f63);
+
+}
+.shopee__search-bar{
+    margin-top:15px;
+}
+.shopee__search-bar-text{
+    display: flex;
+    font-size: 1.2rem;
+    margin-top: 5px;
+    height: 1rem;
+    font-weight: 300;
+    line-height: 1rem;
+ 
+}
+.search-bar-text{
+    text-decoration: none;
+    color: hsla(0,0%,100%,.9);
+    margin-left: 13px;
+}
+.search-bar-text:hover{
+    color: #cfc3b2;
+}
+.search-bar-text:first-child {
+    margin-left: 0;
+}
+.fa-shopping-cart{
+    font-size:2.5rem;
+    color:#fff;
+  
+    margin:0 10px ;
+    padding:0 0 5px 0 ;
+}
+.header-with-search__cart{
+    margin:0 auto ;
+    text-align: center;
+    align-items: center;
+}

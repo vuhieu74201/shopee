@@ -1,0 +1,232 @@
+
+.page-product{
+    padding: 50px 0;
+    background-color: #f5f5f5;
+}
+.page-product-main{
+  
+    background-color: #fff;
+}
+.page-product__img{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    height: 86%;
+    margin: 15px 0;
+}
+.page-product__text{
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+.shopee-text{
+    font-size:2rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.shopee-rating{
+    margin-top:15px;
+    height: 26px;
+}
+
+.shopee-rating__star{
+    color: #d0011b;
+    padding-right: 15px;
+}
+.shopee-rating__text-num{
+    font-size:1.6rem;
+    color: #d0011b;
+    margin-right: 5px;
+    border-bottom: 1px solid #d0011b;
+    padding-right: 5px;
+    padding-bottom: 1px;
+}
+.shopee-rating__star-star{
+    font-size:1.2rem;
+    padding-top: 4px;
+}
+.shopee-rating__text-1{
+    border-right: 1px solid rgba(0,0,0,.14);
+    border-left: 1px solid rgba(0,0,0,.14);
+    padding:0 15px;
+    color: rgba(0,0,0,.54);
+}
+.shopee-rating__text-2{
+    padding-left: 15px;
+    color: rgba(0,0,0,.54);
+}
+.shopee-rating__text-text{
+    padding: 4px 0;
+    font-size: 1.4rem;
+}
+.shopee-price{
+    background-color: #fafafa;
+    padding:15px 20px;
+    margin-top: 10px;
+    flex-direction: column;
+}
+.shopee-price_text{
+    font-size: 3rem;
+    color:#d0011b;
+    font-weight: 500;
+}
+.shopee-price__content{
+    flex-direction: column;
+    margin-left: 40px;
+    
+}
+.shopee-price__content-1{
+    font-size:1.4rem;
+    color:#d0011b;
+    font-weight: 500;
+}
+.shopee-price__content-2{
+    font-size:1.4rem;
+    margin-top: 4px;
+    color: rgba(0,0,0,.54);
+}
+.shopee-color{
+    margin: 30px 0 20px 0;
+    
+}
+.shopee-color__text{
+    font-size:1.4rem;
+    color: #757575;
+    width: 110px;
+    text-transform: capitalize;
+    display: inline-flex;
+    line-height: 35px;
+}
+.product-variation{
+    font-size:1.4rem;
+    color: #757575;
+    cursor: pointer;
+    min-width: 8rem;
+    min-height: 3.5rem;
+    box-sizing: border-box;
+    padding: .4rem 1.2rem;
+    margin: 0 8px 8px 0;
+    text-align: left;
+    border-radius: 2px;
+    border: 1px solid rgba(0,0,0,.09);
+    position: relative;
+    background: #fff;
+    outline: 0;
+    display: inline-flex;
+    align-items: center;  
+    justify-content: center;
+}
+
+.product-variation:focus{
+    outline: 1px solid #ee4d2d;
+    color: #d70018;
+}
+.product-variation:hover {
+    color: #ee4d2d; 
+    border-color: #ee4d2d;
+}
+.shopee-quantity{
+    margin: 10px 0;
+}
+.shopee-input{
+    margin-right: 15px;
+}
+.shopee-quantity-text{
+    font-size:1.4rem;
+    color: #757575;
+    width: 110px;
+    text-transform: capitalize;
+    display: inline-flex;
+    line-height: 35px;
+}
+.shopee-input-quantity__btn{
+    font-size:1.4rem;
+    color: #757575;
+    cursor: pointer;
+    width: 3.2rem;
+    height: 3.4rem;
+    box-sizing: border-box;
+    border-radius: 2px;
+    border: 1px solid rgba(0,0,0,.09);
+    background: #fff;
+    outline: 0;
+    display: inline-flex;
+    align-items: center;  
+    justify-content: center;
+}
+.shopee-input-quantity__btn:focus{
+    outline: none;
+}
+.shopee-input-quantity__btn:hover{
+    color:#ee4d2d;
+}
+.quantity{
+    border: 1px solid rgba(0,0,0,.09);
+    width: 5rem;
+    height: 3.4rem;
+    text-align: center;
+    font-size :1.4em;
+}
+.quantity:focus{
+    outline:none;
+}
+.shopee-input-quantity__text{
+    font-size :1.4em;
+    text-align: center;
+    line-height: 33px;
+    color: #757575;
+}
+.shopee-cart{
+    margin: 20px 0 40px 0;
+   
+}
+.shopee-cart__giohang {
+    padding: 12px 0;
+    cursor: pointer;
+    border: 0;
+    color: #d70018;
+    margin:10px 10px 10px 0;
+    background-color: #fbebed;
+    border-radius: 4px;
+}
+.shopee-cart__giohang:focus{
+    outline: none;
+}
+.shopee-cart__giohang-text{
+    font-size :1.4rem;
+    padding:0 12px 0 10px;
+    text-align: center;
+}
+.shopee-cart__buy{
+    padding: 10px 58px;
+    cursor: pointer;
+    border: 0;
+    color: #fff;
+    margin: 10px;
+    background-color: #d70018;
+    border-radius: 4px;
+}
+.shopee-cart__buy:focus{
+    outline: none;
+}
+.shopee-cart__buy-text{
+    font-size :1.4rem;
+}
+.motachitiet{
+    margin:20px 0;
+    background-color: #fff;
+    padding: 25px;
+}
+.tieude{
+    font-size : 2rem;
+    text-transform: uppercase;
+    background-color: #f2f2f2;
+    padding: 10px 15px;
+    width: 100%;
+    font-weight: 500;
+}
+.noidung{
+    font-size : 1.4rem;
+    padding: 20px 15px;
+}
