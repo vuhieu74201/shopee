@@ -1,21 +1,20 @@
-
-<?php 
-    session_start();
-    if(isset($_GET['login'])){
-        $dangxuat = $_GET['login'];
-    }else{
-        $dangxuat = '';
-
-    }
-    if($dangxuat == 'dangxuat'){
-        unset($_SESSION['idnguoidung']);
-        unset($_SESSION['nguoidung']);
-        header('Location:index.php');
-    }
+<?php
+session_start();
+if (isset($_GET['login'])) {
+    $dangxuat = $_GET['login'];
+} else {
+    $dangxuat = '';
+}
+if ($dangxuat == 'dangxuat') {
+    unset($_SESSION['idnguoidung']);
+    unset($_SESSION['nguoidung']);
+    header('Location:index.php');
+}
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -35,33 +34,35 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-    <style>
-        .home-filter__btn:focus{
-            outline:none;
-            box-shadow: none;
-            background-color:rgb(238,77,45);
-            color:#fff;
-        }
-        .category{
-            padding-left: 0;
-        }
-    </style>
+    <!-- <style>
+    .home-filter__btn:focus{
+        outline:none;
+        box-shadow: none;
+        background-color:rgb(238,77,45);
+        color:#fff;
+    }
+    .category{
+        padding-left: 0;
+    }git 
+</style> -->
 
 </head>
+
 <body>
     <?php
-        include("admin/config/config.php");
-        include("inc/header.php");
+    include("admin/config/config.php");
+    include("inc/header.php");
     ?>
     <div class="app">
         <?php
-			
-            include("inc/main.php");
-            
-		?>  
-    </div>  
+
+        include("inc/main.php");
+
+        ?>
+    </div>
     <?php
-       include("inc/footer.php");
-    ?>     
+    include("inc/footer.php");
+    ?>
 </body>
+
 </html>
